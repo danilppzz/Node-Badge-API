@@ -4,13 +4,13 @@ import { Hono } from "hono";
 
 const app = new Hono();
 
-app.use('/public/*', serveStatic({ root: './' }))
+app.use('/static/*', serveStatic({ root: './' }))
 
 app.get("/", (c) => {
   return c.json({
     owner: "danilppzz",
     license: {
-      custom: "http://localhost:3000/license"
+      custom: "http://localhost:3000/static/LICENSE.txt"
     },
     versions: "1.0.0",
     api: [
@@ -23,10 +23,6 @@ app.get("/", (c) => {
     ]
     
   })
-})
-
-app.get("/license", (c) => {
-  return c.html('<iframe style="width: 100%; height: 100%;" src="http://localhost:3000/public/LICENSE.txt" frameBorder={0}></iframe>');
 })
 
 app.get("/presets", (c) => {
