@@ -30,5 +30,5 @@ In this porject I use .tsx files by HonoJS, because is better to return code as 
 
 
 > [!NOTE]
-> This api also has a presets root with information and copy links to the presets at ```http://localhost:3000/presets```
+> This api also has a presets endpoint with information and copy links to the presets at ```http://localhost:3000/presets```
 > Here your can find 5 presets made by me (danilppzz).
