@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "build": "tsc"
+    "start": "node src/tu_archivo.js"
   },
   "author": "danilppzz",
   "dependencies": {
