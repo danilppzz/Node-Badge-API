@@ -2,10 +2,10 @@
   "name": "hono-badge-api",
   "version": "1.0.0",
   "description": "This is a badge api for make svg with custom text, color and border to POST it into your projects docs and make it look better.",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "start": "node src/tu_archivo.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "danilppzz",
   "dependencies": {
