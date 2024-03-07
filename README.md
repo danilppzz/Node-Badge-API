@@ -32,3 +32,10 @@ In this porject I use .tsx files by HonoJS, because is better to return code as 
 > [!NOTE]
 > This api also has a presets endpoint with information and copy links to the presets at ```http://localhost:3000/presets```
 > Here your can find 5 presets made by me (danilppzz).
+
+```js
+  var color = req.query.color || 'dark';
+  var ct = req.query.ct || 'white';
+  var text = req.query.text || 'EXAMPLE';
+  var rd = req.query.rd || false;
+```
