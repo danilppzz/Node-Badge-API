@@ -58,15 +58,15 @@ app.get('/', (req, res) => {
   res.json({
     owner: 'danilppzz',
     license: {
-      custom: `http://localhost:${port}/static/LICENSE.txt`,
+      custom: `/static/LICENSE.txt`,
     },
     versions: '1.0.0',
     api: [
       {
-        default: `http://localhost:${port}/badge/default`,
+        default: `/badge/default`,
       },
       {
-        presets: `http://localhost:${port}/presets`,
+        presets: `/presets`,
       },
     ],
   });
@@ -77,27 +77,27 @@ app.get('/presets', (req, res) => {
       example: [
         {
           title: 'default',
-          url: 'http://localhost:3000/badge/default',
+          url: '/badge/default',
           flags: { color: 'dark', ct: 'white', text: 'EXAMPLE', rd: false },
         },
         {
           title: 'support',
-          url: 'http://localhost:3000/badge/default?text=%F0%9F%A4%8D%20SUPPORT&rd=true',
+          url: '/badge/default?text=%F0%9F%A4%8D%20SUPPORT&rd=true',
           flags: { color: 'dark', ct: 'white', text: '%F0%9F%A4%8D%20SUPPORT', rd: true },
         },
         {
           title: 'portfolio',
-          url: 'http://localhost:3000/badge/default?color=pink&ct=dark&text=PORTFOLIO&rd=false',
+          url: '/badge/default?color=pink&ct=dark&text=PORTFOLIO&rd=false',
           flags: { color: 'dark', ct: 'dark', text: 'PORTFOLIO', rd: false },
         },
         {
           title: 'package',
-          url: 'http://localhost:3000/badge/default?text=%F0%9F%93%A6%20PACKAGE&rd=true',
+          url: '/badge/default?text=%F0%9F%93%A6%20PACKAGE&rd=true',
           flags: { color: 'dark', ct: 'white', text: '%F0%9F%93%A6%20PACKAGE', rd: true },
         },
         {
           title: 'resume',
-          url: 'http://localhost:3000/badge/default?text=%F0%9F%93%84%20RESUME&rd=false',
+          url: '/badge/default?text=%F0%9F%93%84%20RESUME&rd=false',
           flags: { color: 'dark', ct: 'white', text: '%F0%9F%93%84%20RESUME', rd: false },
         },
       ],
