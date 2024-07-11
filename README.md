@@ -1,4 +1,4 @@
-# Badge-API made with HonoJS 
+# Node-Badge-API
 
 To copy this project you have to paste this command in your terminal.
 ```cmd
