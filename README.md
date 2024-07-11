@@ -2,7 +2,7 @@
 
 To copy this project you have to paste this command in your terminal.
 ```cmd
-git clone https://github.com/danilppzz/Hono-Badge-API.git
+git clone https://github.com/danilppzz/Node-Badge-API.git
 ```
 Next thing you should do is look if you have nodejs v20 or higher.
 
